@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Marko One", serif;
+  background-color: bisque;
+}
+.header {
+  text-align: center;
+  padding: 100px;
+  font-size: 2vw;
+  color: yellow;
+  background-image: url("https://images.unsplash.com/photo-1710781944947-7cd4a381499f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D");
+}
+.header h1 {
+  background-color: black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+}
+.text-area {
+  padding: 10px;
+  font-size: 15px;
+  height: 10rem;
+  font-family: "Marko One", serif;
+  border-radius: 15px;
+}
+.wrapper {
+  margin: 30px 0;
+}
+.text {
+  max-width: 850px;
+  margin: auto;
+  /* padding: 35px 0; */
+  text-align: center;
+  background-color: #03045e;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.statistics {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  gap: 50px;
+  color: white;
+}
+.pad {
+  padding: 50px 0;
+}
+.stats {
+  font-size: 20px;
+}
+.stats-nuber {
+  font-size: 30px;
+}
