@@ -6,6 +6,11 @@ const twitterCounter = document.querySelector(".twitter");
 const linkedinCounter = document.querySelector(".linkedin");
 
 const textHendler = () => {
+   if (text.value.includes("Payment")) {
+    alert("Not Allow!");
+    text.value = text.value.replace("Payment", "");
+  }
+  
   // Text Characters;
   //   charactersCounter.innerHTML = textArea.value.length;
   let numberOfWords = textArea.value.length;
