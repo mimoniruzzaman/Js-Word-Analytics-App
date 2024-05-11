@@ -15,7 +15,16 @@ const textHendler = () => {
   wordCounter.innerHTML = textArea.value.split(" ").length;
   if (textArea.value.length === 0) {
     wordCounter.innerHTML = 0;
+
+  // let newTwitter = 250 - newword;
+  // twitterCount.innerHTML = newTwitter;
+  // if (newTwitter < 0) {
+  //   warning.style.display = "block";
+  // } else {
+  //   warning.style.display = "none";
+  // }
   }
+ 
   //   let wordOfCounter = textArea.value.split(" ").length;
   //   wordCounter.innerHTML = wordOfCounter;
 
